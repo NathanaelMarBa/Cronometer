@@ -12,10 +12,10 @@ public class Segundo {
                     s = 0;
                 }
                 Thread.sleep(1000);
-                System.out.println(h.h + ":" + m.m + ":" + s);
+                System.out.println(m.hrs + ":" + m.m + ":" + s);
             }
         }catch (Exception e){
-
+            System.out.println(e);
         }
     }
 }
